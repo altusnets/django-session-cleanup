@@ -8,7 +8,7 @@ For projects that use the ``cached_db`` or ``db`` session engines, the
 ``django_session`` table can get quite large after a while.
 
 Django provides the 'cleanup' management command for deleting expired sessions
-from this table but you have to either run this command manually or
+from this table but you have to either run this c8ommand manually or
 set-up a cron job.
 
 Django Session Cleanup provides a periodic task for
